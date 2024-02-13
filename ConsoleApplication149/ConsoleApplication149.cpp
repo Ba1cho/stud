@@ -84,6 +84,7 @@ void findBestAndWorstCourse(student * M , int n) {
 	std::cout << "Курс с наихудшей успеваемостью: " << worstCourse << std::endl;
 }
 int main() {
+	srand(time0));
 	setlocale(LC_ALL, "Russian");
 	int p;
 	cout << "Количество студентов ";
